@@ -1,0 +1,7 @@
+git --version
+git config --global user.name "Shriram Deshpande"
+git config --global user.email "deshpande@hotmail.co.in"
+git config --list
+git help
+
+git init

@@ -1,0 +1,6 @@
+1. New features are installed on small chunk and opened for specific user base
+	Continuous Monitoring
+	Continuous Testing
+	Continuous Feedback 
+	Continuous Development
+2. Relase in chunk
