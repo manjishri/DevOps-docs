@@ -1,10 +1,18 @@
 git --version
 git config --global user.name "Shriram Deshpande"
 git config --global user.email "deshpande@hotmail.co.in"
+<<<<<<< HEAD
 git config --global user.email "deshpande@hotmail.co.in"
+=======
+git config --list
+git config --list
+>>>>>>> develop
 git help
 
 git init
 git init
+<<<<<<< HEAD
 git status
+=======
+>>>>>>> develop
 git status
