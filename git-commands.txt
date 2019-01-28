@@ -1,3 +1,5 @@
+This is added on master branch before rabase
+
 git --version
 git config --global user.name "Shriram Deshpande"
 git config --global user.email "deshpande@hotmail.co.in"
