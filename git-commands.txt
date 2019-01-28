@@ -16,3 +16,6 @@ git status
 =======
 >>>>>>> develop
 git status
+git init
+git init
+<<<<<<< HEAD
