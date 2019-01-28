@@ -16,3 +16,7 @@ git status
 =======
 >>>>>>> develop
 git status
+
+Added more content
+:wq
+
