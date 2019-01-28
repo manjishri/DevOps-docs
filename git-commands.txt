@@ -16,6 +16,13 @@ git status
 =======
 >>>>>>> develop
 git status
+<<<<<<< HEAD
 git init
 git init
 <<<<<<< HEAD
+=======
+
+Added more content
+:wq
+
+>>>>>>> mybranch
