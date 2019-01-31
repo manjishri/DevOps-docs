@@ -1,0 +1,8 @@
+Text Direction : GitHub Hook SetUp
+Section 17, Lecture 93
+Jenkins GitHub Plugin:
+https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin
+
+
+
+You will find the complete document and setup instruction.

@@ -1,0 +1,18 @@
+Trouble Shooting: Create our First Maven-based Jenkins Project
+Section 17, Lecture 87
+If you got the below errors while putting the Github URL on Jenkins:
+
+Failed to connect to repository : Error performing command: C:\Git\bin ls-remote -h https://github.com/anchulc55/jenkins.git HEAD  
+
+or 
+
+Failed to connect to repository : Error performing command: C:\Users\mks7kor\AppData\Local\Programs\Git\cmd ls-remote -h https://github.com/anchulc55/jenkins.git HEAD 
+
+Solution:
+
+Step 1: Find out where GIT is installed on your laptop (For Linux/Mac Users, you can run which git to find out the full path of GIT), 
+
+Step 2: In the Path to Git executable  field on the below Global Tool Configuration  section, put the full path to GIT.
+
+If you are using Windows, you might need to add exe extension to the end of git as well ( use git.exe  instead of git )
+
