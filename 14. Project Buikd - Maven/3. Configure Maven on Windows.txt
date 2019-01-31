@@ -1,0 +1,67 @@
+To install maven on windows, you need to perform following steps:
+
+Download Maven and extract it
+
+Add M2_HOME in environment variable
+
+Add maven path in environment variable
+
+Verify Maven
+
+ 
+
+For a manual installation, you can download Maven from the following URL Maven Download page.
+
+Download “Binary zip archive” from Download Page. Like – apache-maven-3.3.9-bin.zip
+
+Unzip this ZIP file.
+
+Install Maven on Windows
+
+ 
+
+Add JAVA_HOME Environmental Variable
+Right click on MyComputer -> properties -> Advanced System Settings -> Environment variables -> click new button.
+
+Put the variable name “JAVA_HOME” .
+
+Give JAVA SDK value in JAVA_HOME value. For me, it’s – C:\Program Files\Java\jdk1.8.0_31
+
+Click on “OK” button.
+
+ 
+
+Add M2_HOME Environmental Variable
+Right click on MyComputer -> properties -> Advanced System Settings -> Environment variables -> click new button.
+
+Put the variable name “M2_HOME” or “MAVEN_HOME” .
+
+The value of M2_HOME should be home directory of maven. For me it’s – C:\apache-maven-3.3.9
+
+Click on “OK” button.
+
+Install Maven on Windows
+
+ 
+
+Add M2_HOME/MAVEN_HOME in Path Variable
+Right click on MyComputer -> properties -> Advanced System Settings -> Environment variables.
+
+Find the path variable and click on Edit button.
+
+Now add %M2_HOME%/bin; to path variable. Using this way, We are providing the Maven bin path in the path variable.
+
+Install Maven on Windows
+
+ 
+
+Verify Maven is Installed
+To verify whether maven is installed or not, open the command prompt and write:
+
+mvn -version
+
+Now it will display the version of maven and jdk including the maven home and java home.
+
+Let’s see the output:
+
+Install Maven on Windows
