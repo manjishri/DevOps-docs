@@ -1,0 +1,27 @@
+Trouble Shooting: Deploy to Production
+Section 19, Lecture 103
+Trouble shooting:
+If you encountered errors deploying to production but you cansuccessfully deploy to staging, try the following solution:
+
+Change all the below ports for the the production tomcat, restart it and retry the Jenkins build.
+
+
+
+
+
+
+Copy Tomcat in Linux/Mac Machine from Terminal :
+
+mv <source_dir> <destination_dir>cp -r <source_dir> <destination_dir>
+
+
+
+
+Stop Tomcat on Mac/Linux Machine:
+
+Go to Tomcat : /binExecute Command : ./shutdown.sh
+
+
+Steps to Start Tomcat :
+
+Go to Tomcat : /binExecute Command : ./startup.sh

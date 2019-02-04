@@ -1,0 +1,30 @@
+Text Direction: Code Quality and Code Coverage Metrics Report
+Section 18, Lecture 95
+Git commands:
+Show the working tree status:
+
+git status 
+
+Add file contents to the index:
+
+git add <file path> or git add .  
+
+Record changes to the repository:
+
+git commit -am <commit message>
+
+
+
+Update remote refs along with associated objects:
+
+git push origin <branch_name> 
+
+
+
+PMD Jenkins plugin:
+https://wiki.jenkins-ci.org/display/JENKINS/PMD+Plugin
+
+
+
+Findbugs Jenkins Plugin:
+https://wiki.jenkins-ci.org/display/JENKINS/FindBugs+Plugin

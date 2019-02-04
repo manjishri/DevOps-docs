@@ -1,0 +1,29 @@
+Trouble Shooting: Automate Code Pipeline
+Section 20, Lecture 112
+mvn command not found  or mvn not found  issue when running the build
+
+Solution: 
+
+Add a 'tools' directive in the jenkinsfile that specifies the name of the maven installation in the jenkins Global Tool Configurations. If following previous lectures this would be 'localMaven'. 
+
+pipeline {
+    agent any
+ 
+    tools {
+        maven 'localMaven'
+    }
+ 
+stages{
+        stage('Build'){
+            steps {
+                sh 'mvn clean package'
+            }
+            post {
+                success {
+                    echo 'Now Archiving...'
+                    archiveArtifacts artifacts: '**/target/*.war'
+                }
+            }
+        }
+    }
+}

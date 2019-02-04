@@ -1,0 +1,39 @@
+Text Lecture: Overview of Pipeline as Code
+Section 20, Lecture 105
+Jenkins File as a Code:
+
+https://github.com/anshulc55/java-tomcat-maven-example/blob/master/Jenkinsfile
+
+
+
+You can execute shell if you have configured your jenkins on Linux/Mac machine.
+
+
+
+Sample Jenkins file:
+
+*****************************
+
+pipeline {
+    agent any
+    stages {
+        stage ('Initialize') {
+            steps {
+                echo  "Initializing the Code File"
+            }
+        }
+ 
+        stage ('Build') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+ 
+         stage ('Deploy') {
+            steps {
+                echo 'Deployed an Artifact'
+            }
+        }
+    }
+}
+****************************

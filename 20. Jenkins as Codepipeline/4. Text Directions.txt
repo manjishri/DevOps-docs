@@ -1,0 +1,61 @@
+Text Lecture: Build Pipeline
+Section 20, Lecture 107
+Sample Jenkins code file:
+
+pipeline{
+ 
+    /* A decalarative pipeline*/
+    agent any
+ 
+    stages{
+ 
+        agent ABC
+ 
+        stage('Build'){
+ 
+            steps{
+ 
+ 
+            }
+        }
+ 
+        agent XYZ
+ 
+        stage('Deploy to Staging'){
+            /*Agent selection could go here as well*/
+            steps{
+ 
+ 
+            }
+ 
+        }
+    }
+}
+
+
+Build Packer Job : Jenkinsfile
+
+pipeline {
+    agent any
+    stages {
+        stage ('Build Servlet Project') {
+            steps {
+                /*For windows machine */
+               bat  'mvn clean package'
+ 
+                /*For Mac & Linux machine */
+               // sh  'mvn clean package'
+            }
+ 
+            post{
+                success{
+                    echo 'Now Archiving ....'
+ 
+                    archiveArtifacts artifacts : '**/*.war'
+                }
+            }
+        }
+    }
+}
+
+
