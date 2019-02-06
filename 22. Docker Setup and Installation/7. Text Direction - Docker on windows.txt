@@ -1,0 +1,29 @@
+Text Direction: Docker on Windows
+Section 22, Lecture 126
+Download Docker CE for Windows 10 Pro/Ent
+
+https://store.docker.com/editions/community/docker-ce-desktop-windows
+
+
+
+Download Docker ToolSet for Windows Earlier Versions
+
+https://docs.docker.com/toolbox/overview/
+
+
+
+Docker for Windows FAQ
+
+https://docs.docker.com/docker-for-windows/faqs/
+
+
+
+Get Started with Docker for Windows
+
+https://docs.docker.com/docker-for-windows/
+
+
+
+Download Docker for Windows Server 2016
+
+https://store.docker.com/editions/enterprise/docker-ee-server-windows

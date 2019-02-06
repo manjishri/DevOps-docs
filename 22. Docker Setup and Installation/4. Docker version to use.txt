@@ -1,0 +1,2 @@
+Docker community (Release quarterly) vs Docker enterprise
+Edge release and Stable release

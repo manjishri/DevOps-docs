@@ -1,0 +1,38 @@
+Text Direction : Create Machine on Cloud
+Section 22, Lecture 129
+Steps to Register on DigitalOcean and get Promo Code
+First open this link and Sign Up to get your $10 credit.
+
+While filling your billing info, click on "Have a Promo Code?" at the bottom of the page.
+
+Enter any one of the below codes to get extra credit:
+
+CodeAnywhere10
+
+LOWENDBOX
+
+CODEANYWHERE
+
+DOPRODUCT15
+
+DO10
+
+ALLSSD10
+
+WP10
+
+DROPLET10
+
+BITNAMI
+
+DEPLOY10
+
+ACTIVATE10
+
+DONEWS
+
+FRANKFURT
+
+From 1st step you will get your first $10 credit and by using additional promo codes you can get up to $35 of total credits.
+
+Note: Some codes only give more credit on higher plans.

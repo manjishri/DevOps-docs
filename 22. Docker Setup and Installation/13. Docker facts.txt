@@ -1,0 +1,111 @@
+5 Facts Everyone Should Know about Containers
+Section 22, Lecture 133
+Here are a handful of key things about containers that are often overlooked or poorly understood.
+
+By now, you’ve probably heard all about containers – especially Docker containers.
+
+But containers involve more than just Docker.
+
+Here are five important things everyone – not least MSPs – should understand about containers today.
+
+I chose the following items because they are often overlooked or poorly understood.
+
+Media stories about containers don’t always capture the full details and nuance of the technologies and communities that exist in the container ecosystem.
+
+
+
+Fact 1: Containers are Not Just Docker
+
+The company today known as Docker, Inc., brought containers mainstream starting in 2013.
+
+But Docker did not invent containers.
+
+Containerization frameworks existed in the Linux kernel many years before Docker appeared on the scene.
+
+Docker is also not the only company developing container technology today.
+
+Most Docker technology is open source, meaning a large community develops it.
+
+And lots of other companies – many of them in frenemy relationships with Docker – develop complementary tools for Docker. Red Hat and CoreOS are examples of such companies.
+
+
+
+Fact 2: Docker is Not Just for Linux (Anymore)
+
+At first, Docker containers only worked on Linux.
+
+Then, people started using virtualization to run Docker on other operating systems by using a Linux-based virtual machine to host Docker.
+
+Today, however, virtual machines are no longer necessary if you want to use Docker on systems other than Linux.
+
+Docker containers run natively on Windows 10 and Windows Server 2016, meaning that no virtualization is required.
+
+In addition, thanks to the recently introduced LinuxKit platform, it’s now possible for developers to create containers that can run absolutely anywhere.
+
+They do this by building a Linux subsystem into the containers.
+
+That essentially means that Linux gets packed right into the containers and can be used to host them in any environment.
+
+
+
+Fact 3: There Are Two Main Types of Containers: App Containers and System Containers
+
+Docker has become popular largely as a platform for running application containers. Application containers are used to host individual applications.
+
+But you can also use containers to run a complete operating system.
+
+This use case involves system containers.
+
+System containers are similar to virtual machines in that they abstract a guest operating system away from a host system.
+
+But they are more efficient because they can share more resources with the host.
+
+The trade-off for that efficiency is that system containers are less portable: A Linux-based system container can only run on a Linux host.
+
+Platforms like LXD and OpenVZ allow you to create system containers.
+
+You could technically do it with Docker, too, although that’s not common.
+
+
+
+Fact 4: Orchestrators are Controversial
+
+If you want to use containers at scale, you need an orchestrator.
+
+Orchestrators automate the configuration and management of containerized environments.
+
+The most popular orchestrators today include Swarm, Mesos and Kubernetes.
+
+They’re all open source, but some companies have chosen to endorse only certain orchestrators.
+
+If you want to understand where a company stands within the container ecosystem and what its strategy is, look at which orchestrator it chooses to support.
+
+For example, Red Hat is big on Kubernetes because Red Hat wants to compete with Docker, which strongly supports Swarm (even though the Docker platform is compatible with other orchestrators).
+
+
+
+Fact 5: Containers are Not Necessarily Faster than Virtual Machines
+
+People often refer to Docker as “faster” than virtual machines.
+
+They say these things because of the assumption that virtual machines waste hardware resources on emulation.
+
+The fact is, however, that modern virtualization platforms are very efficient.
+
+For example, a virtual machine created with the open source KVM hypervisor is only about 2 percent slower than a bare-metal server.
+
+Plus, Docker containers are not free of overhead.
+
+They expend resources on things like overlay networks and storage.
+
+This all said, containers do consume resources more efficiently because they don’t have to duplicate functionality available on the host system.
+
+Containers share libraries, drivers and so on with the host.
+
+As a result, you can fit more containerized applications on a single physical server than you could virtual machines.
+
+For this reason, you sometimes hear containers described as a more “dense” hosting solution than virtual machines.
+
+That doesn’t mean that containerized applications are necessarily faster.
+
+It just means you can run more applications on less hardware.
